@@ -1,0 +1,17 @@
+#!/usr/bin/env ruby
+
+require 'thor'
+
+class App < Thor
+  desc 'zhangxuelian', '显示'
+  def zhangxuelian
+    puts 'hello zhangxuelian'
+  end
+  
+  desc 'cifer', 'cifer吃翔'
+  def cifer
+    puts 'cifer 快来吃'
+  end
+end
+
+App.start
