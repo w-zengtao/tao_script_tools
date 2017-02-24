@@ -37,7 +37,7 @@ locate_types += ['.erb'] if $find_erb
 locate_types += ['.rb', '.rake', '.cap'] if $find_rb
 locate_types += ['.h', '.hh', '.hxx', '.hpp'] if $find_header
 locate_types += ['.c', '.cc', '.cpp', '.cxx', '.mm', '.m'] if $find_source
-locate_types += ['.haml', '.js', '.css', '.yml', '.html', '.md', '.scss', '.txt'] if $find_text #一些界面文件的类型可以自行加入
+locate_types += ['.haml', '.js', '.yml', '.html', '.md', '.scss', '.txt'] if $find_text #一些界面文件的类型可以自行加入
 
 GrepMatchedItem = Struct.new(:lidx, :cont)
 
